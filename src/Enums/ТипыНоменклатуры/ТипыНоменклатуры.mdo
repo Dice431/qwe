@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b242abb-592c-49ef-a24b-9aad1385acf7">
+  <producedTypes>
+    <refType typeId="f89c75ba-0853-4fb4-bf16-f51d56543a1e" valueTypeId="05a3d919-e2c5-4cd5-a632-c6da1e6a111c"/>
+    <listType typeId="ab927be7-c288-4fee-a9c1-a4c582995e5e" valueTypeId="8190015b-8cb1-4b77-8fa5-46bf8f464a55"/>
+    <managerType typeId="0e3bf519-0c06-4c61-86ca-2fb7f3567822" valueTypeId="1c82ec70-cfa8-46a2-b30e-698d88b5c76b"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a4aab413-cdcc-4193-8f5a-9e52bb5a2e49">
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
