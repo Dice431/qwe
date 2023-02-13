@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2c9198a-eba5-46d4-9bb0-75032c13544c">
+  <producedTypes>
+    <refType typeId="27c85fa7-264b-48c5-baf4-fea61702733d" valueTypeId="f87351a6-c46f-4d8d-a32e-94d1fd99ad62"/>
+    <listType typeId="e1ccc418-0110-4dfa-a4d8-5b780b375cea" valueTypeId="569eb3fc-e161-4e1c-bc82-7fa44120690f"/>
+    <managerType typeId="724e602d-ff4c-43d9-b46d-0bfeeb999eb1" valueTypeId="bad6f251-a579-4962-aa2e-fa0053990d9e"/>
+  </producedTypes>
+  <name>ВидКонтактаСКлиентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид контакта с клиентом</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="646220f8-54d1-46b0-bd9b-b6ca6b5a7a7a">
+    <name>ЛичнаяВстреча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личная встреча</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0680b009-34a8-40e8-9d63-1a947f953bf6">
+    <name>ТелефонныйЗвонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефонный звонок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c944949-b2b6-45f5-a221-76781bb00982">
+    <name>Письмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

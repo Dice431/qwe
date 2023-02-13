@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc748ba9-af39-4dfb-96b1-05eab1737722">
+  <name>Автомагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомагазин</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5e307e4f-d70a-444a-97bf-985368628216"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="dcc6de37-6d3a-4f7d-b17c-390193dfce25"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="51121bb7-b9db-46a3-b51b-814c0d9bbe83"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8b1396d3-d048-4c29-8371-ae91cd8307c3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="24bc6756-71f4-44f4-b0eb-5233cbdf3d2a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a2e5ff48-cb55-4f2d-8f9f-683e51eed7a4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6f9533b3-8684-401b-a372-1eef9170adb0"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Васильев Никита</vendor>
+  <version>1.0.0.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="39ab0bb1-514f-47fa-ab2a-a53bf4e583a2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Торговля</subsystems>
+  <subsystems>Subsystem.Кадры</subsystems>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.НеОтображаемыеДанные</subsystems>
+  <subsystems>Subsystem.Транспорт</subsystems>
+  <subsystems>Subsystem.Остальное</subsystems>
+  <sessionParameters>SessionParameter.ПользовательСеанса</sessionParameters>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Аудитор</roles>
+  <commonModules>CommonModule.РаботаСДокументамиСервер</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.ЮридическийАдрес</constants>
+  <commonForms>CommonForm.КонтактныеДанныеОрганизации</commonForms>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.БазовыеЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.СтепениБрака</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ПриёмНаРаботу</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.КонтактСКлиентом</documents>
+  <documentJournals>DocumentJournal.ДокументыЗакупки</documentJournals>
+  <enums>Enum.Издержки</enums>
+  <enums>Enum.СостояниеЗаказа</enums>
+  <enums>Enum.ТипЛица</enums>
+  <enums>Enum.ВидКонтактаСКлиентом</enums>
+  <enums>Enum.ПрайсЛистТовара</enums>
+  <reports>Report.Закупки</reports>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ОтчётПоЖурналуРегистрации</reports>
+  <dataProcessors>DataProcessor.МетаданныеДокумента</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.ЗАПРОСИКИ</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+</mdclass:Configuration>

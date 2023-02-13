@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="077d4e05-0577-454b-b7fc-6e5c53079909">
+  <producedTypes>
+    <objectType typeId="269ad25e-38c7-4360-a7e7-5e56b11d86cf" valueTypeId="8ad80f41-547d-4745-9246-d8673e905662"/>
+    <refType typeId="458bf4f0-c2cb-47a1-9999-1efc94df305a" valueTypeId="320db1d1-40c3-4d53-9511-c3f7ca454f35"/>
+    <selectionType typeId="e03524c1-9d39-4b3d-ba40-48b834f2b238" valueTypeId="44ad8b31-ee08-404c-ab5a-274f1dd5985f"/>
+    <listType typeId="ba791c43-b1ea-4374-ba83-bfc2299431b9" valueTypeId="c588e7bc-83c4-4e03-bb9f-efd46c8a8386"/>
+    <managerType typeId="89c99ea3-024f-40d4-a94e-b0afec185b75" valueTypeId="bb036308-9250-4a99-85a3-e857a9bf3797"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕдиницыИзмерения.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="fd454dae-8d16-4e88-b5a3-d069d3d2c8bc">
+    <name>КоэффициентПерарасчёта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент перарасчёта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68c30a90-7f1c-4e98-991f-b566240ff69d">
+    <name>БазоваяЕдИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая ед измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазовыеЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b34d14f7-498f-4c5e-bd65-8bace96f2b8e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

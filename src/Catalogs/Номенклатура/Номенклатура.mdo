@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fa2826e-743c-4c6b-b60a-701d78529b54">
+  <producedTypes>
+    <objectType typeId="821204d7-d498-4e07-a9b7-ab1015456c48" valueTypeId="f1bcc635-c200-4821-a838-fa2e198f04b6"/>
+    <refType typeId="18f8e143-be77-4e94-9d50-aa57b46ce10e" valueTypeId="29120152-b75b-428b-98c7-544c9cecad8f"/>
+    <selectionType typeId="ce225d0d-5de0-4f18-97b3-f8756f2702a6" valueTypeId="3d659eae-97ec-4240-a08c-6b33c8912bf3"/>
+    <listType typeId="408cae72-1356-4ecd-a455-c7371556f138" valueTypeId="d104fdfd-65af-49ff-84e8-2dd031de992a"/>
+    <managerType typeId="8e3956f5-09b9-4b9b-9c14-57df0cf7ba89" valueTypeId="11a1e518-12ca-4c7b-b8bb-c72524fc3448"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="bab83a66-f9d6-4d77-b7c4-508529944755">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6430231d-8a2f-45ca-be45-b9659e07ba80">
+    <name>ОснЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осн единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазовыеЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2fd05acd-fd23-4450-ae63-8d47d768bded">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e7a8bdad-3866-4825-8123-207740cf4c23">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8721cb73-70fc-46d8-b1be-3cd1d79f6a25">
+    <name>ПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист</value>
+    </synonym>
+  </templates>
+  <commands uuid="b5e644b6-0f76-4e37-9bd4-276b97b64af1">
+    <name>ПечатьПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать прайс листа</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

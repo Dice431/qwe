@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd2b0629-bb63-4393-88f5-ce16d6e06f96">
+  <producedTypes>
+    <objectType typeId="08d97640-ff7a-479a-a16e-790dae158be2" valueTypeId="a5591664-ceb1-4dc4-a48c-a1137eff769a"/>
+    <refType typeId="0eedfa72-4afc-4386-a83d-b87628d5188b" valueTypeId="d8dcb3a3-ab0c-45f9-8d00-33d3808f9a45"/>
+    <selectionType typeId="71638af9-c3dd-4895-9bca-94050b5c005b" valueTypeId="82c16dd1-334d-46a2-9f46-d918decd5242"/>
+    <listType typeId="4c5bf6f4-aa0e-49a9-94e9-2b3b0db20c10" valueTypeId="ccca3f2d-967e-422b-960c-707142e23485"/>
+    <managerType typeId="3a2c33d7-3dbe-4602-9ffe-8761aab538db" valueTypeId="a2b39380-9522-47e7-884d-ce6aa05dbc5f"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b2481207-1adc-4e8d-ac8e-f7841614ec06">
+    <name>ВестиУчётПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учёт по складам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

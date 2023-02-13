@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb79ef0d-c886-4d3a-b025-0119641aa430">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>0139f921-b804-4906-b8f1-33c5501468b0</content>
+  <content>0ed1b229-b36d-4ac5-a603-c35d1b2a65aa</content>
+  <parentSubsystem>Subsystem.Транспорт</parentSubsystem>
+</mdclass:Subsystem>

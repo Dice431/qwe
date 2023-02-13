@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6bca828-b1cb-4873-a16e-a65268c7ece7">
+  <name>НеОтображаемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не отображаемые данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.Издержки</content>
+  <content>Enum.СостояниеЗаказа</content>
+  <content>Enum.ТипЛица</content>
+  <content>Enum.ВидКонтактаСКлиентом</content>
+  <content>Enum.ПрайсЛистТовара</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>AccumulationRegister.Закупки</content>
+  <content>Constant.НазваниеОрганизации</content>
+  <content>Constant.ЮридическийАдрес</content>
+</mdclass:Subsystem>

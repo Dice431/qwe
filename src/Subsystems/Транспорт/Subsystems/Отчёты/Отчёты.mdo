@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfe63c1a-2a52-4320-96f0-86063f1498ab">
+  <name>Отчёты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>81e85df7-5934-411c-8626-5fbd9b1cd1b9</content>
+  <content>af996741-4feb-4dcb-abf2-e040b49ad3df</content>
+  <content>ca1f4cc2-b6bb-4a89-bbff-6f8574791a09</content>
+  <parentSubsystem>Subsystem.Транспорт</parentSubsystem>
+</mdclass:Subsystem>

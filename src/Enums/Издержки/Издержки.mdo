@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb7f08ff-52b8-4740-aa8a-ed6236e4a40f">
+  <producedTypes>
+    <refType typeId="808ea20a-1153-4ea3-9062-ac025a67c18e" valueTypeId="e2f12b11-37d0-40a1-81cd-56969e0e4837"/>
+    <listType typeId="8737967f-f29a-46ee-9189-96679b087a88" valueTypeId="82c33947-3eec-49ae-a81a-b80828b112e2"/>
+    <managerType typeId="c24ab8f2-8af7-4e26-96bc-2eecf264c84f" valueTypeId="1ec2e105-a422-4d93-b9f6-29f31494f3c9"/>
+  </producedTypes>
+  <name>Издержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Издержки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5fe19b0a-392f-4d9c-9236-4589f7f8be7d">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13171f89-bf95-4f1c-a025-59a054cd3ed8">
+    <name>Погрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="362efe34-ee01-4e32-acab-8f8a2f1294bc">
+    <name>Разгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ef821db-0b97-4887-8cfa-c998a5425ebd">
+    <name>Подъём</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подъём</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

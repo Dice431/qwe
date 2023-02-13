@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="854c51b4-722d-4de0-9b75-3cabfcfb4c56">
+  <producedTypes>
+    <objectType typeId="f6daa27e-ea21-4d16-93b0-7b5581f5d474" valueTypeId="751c0df3-50b8-41f0-be30-54645d3f899e"/>
+    <managerType typeId="b39dff59-9f49-4fa6-9e8b-04a1a9f5a692" valueTypeId="4cb65f64-f735-4d34-b7eb-253c6ddcb899"/>
+  </producedTypes>
+  <name>МетаданныеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метаданные документа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МетаданныеДокумента.Form.Форма</defaultForm>
+  <attributes uuid="696ff369-5219-4ac8-9c38-9903264fda47">
+    <name>МетаДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мета документ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43c358eb-fd43-46e5-8c3a-146651fb6416">
+    <name>МетаДерево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мета дерево</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="55304029-2296-4a50-a5e6-648f067f1058">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

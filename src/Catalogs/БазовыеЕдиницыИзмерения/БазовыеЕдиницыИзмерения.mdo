@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="195b08f4-76d3-4e56-b9e9-a6f6313cd13b">
+  <producedTypes>
+    <objectType typeId="bc9e2165-e571-4b6e-b7a0-dd13b6789835" valueTypeId="24a6fc03-ef55-4694-b903-21260993f189"/>
+    <refType typeId="b770978b-808f-4446-8a62-47804448ead2" valueTypeId="91a6ccd9-34b1-480b-9618-5a342d50649a"/>
+    <selectionType typeId="6fbfe9e0-7256-4da5-80f5-9327de007925" valueTypeId="872ed42b-a3f7-4576-856a-fbb18f8bc638"/>
+    <listType typeId="8f0c5c91-acbd-42dd-9659-3fa334d72171" valueTypeId="a2bc3880-45cb-4086-83a3-6b572730230c"/>
+    <managerType typeId="5eaa6414-ca1b-4777-b4ee-449d366f5e31" valueTypeId="ede60a0b-39e0-4e21-bae4-4e585d6cc597"/>
+  </producedTypes>
+  <name>БазовыеЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БазовыеЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БазовыеЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c27b0d51-912f-440e-9752-6751b63777e8">
+      <name>Гр</name>
+      <description>Гр</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
+    <items id="0f02e667-acf5-4197-9759-63deb93ee665">
+      <name>метр</name>
+      <description>М</description>
+      <code xsi:type="core:StringValue">
+        <value>4</value>
+      </code>
+    </items>
+    <items id="8bd46a14-669f-42f0-9dde-c49ed1df6439">
+      <name>мл</name>
+      <description>Мл</description>
+      <code xsi:type="core:StringValue">
+        <value>3</value>
+      </code>
+    </items>
+    <items id="63e7f33f-828c-4880-9415-ef4083bd0b03">
+      <name>штука</name>
+      <description>Штука</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4642644d-4773-4e5a-80e5-3382d8af50f1">
+  <producedTypes>
+    <selectionType typeId="483da379-221e-4dba-9d56-f89396b71d8b" valueTypeId="1009898f-77a2-4ecd-b89e-f1579227d0de"/>
+    <listType typeId="ae2f24ed-0b32-402c-9637-0020ef3b45b0" valueTypeId="47e24b30-014f-4875-995d-5554e1a8f21c"/>
+    <managerType typeId="2e7ecc45-45dc-4cf5-8afa-a483dcb8c228" valueTypeId="aa7b6205-9857-4ed9-8647-e72a75778525"/>
+  </producedTypes>
+  <name>ДокументыЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы закупки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <columns uuid="c44b0891-fbd5-4649-8e21-121bc3269aca">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="bbe5498f-8510-4107-9fa4-294c74154a95">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="eb55e396-14c1-4d58-b8c1-9abd6914ae9c">
+    <name>ПодотчётноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подотчётное лицо</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.ПодотчётноеЛицо</references>
+  </columns>
+</mdclass:DocumentJournal>
